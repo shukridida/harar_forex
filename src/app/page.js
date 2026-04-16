@@ -1,5 +1,4 @@
 import Link from "next/link";
-import ExchangeRates from "./components/ExchangeRates";
 
 export default function Home() {
   return (
@@ -46,8 +45,26 @@ export default function Home() {
           </h2>
 
           <p className="max-w-2xl mx-auto text-white/90 mb-8">
-            Harar Forex is your trusted partner for currency exchange and money transfers.
+            Harar Forex is your trusted partner for currency exchange and money transfers
+            service .We are commited to providing competitive exchange rates,fast transactions,
+            and secure financial services.
+            
           </p>
+           <div className="space-y-2 text-center">
+  
+  <p>📍 Location: Astrol Petrol Station, Red Hill Road</p>
+
+  <div>
+    <p className="font-semibold">🕒 Opening Hours:</p>
+
+    <ul className="space-y-1">
+      <li>Monday – Saturday: 9:00 AM – 6:00 PM</li>
+      <li>Sunday: Closed</li>
+      <li>Public Holidays: Closed</li>
+    </ul>
+  </div>
+
+</div>
 
           <Link href="/rates">
             <button className="bg-[#166534] px-6 py-3 rounded-lg font-semibold hover:opacity-90">
@@ -56,10 +73,24 @@ export default function Home() {
           </Link>
         </section>
 
-        {/* RATES */}
-        <section className="px-6 pb-20">
-          <ExchangeRates />
-        </section>
+       {/* FOOTER */}
+<footer className="bg-black/60 text-white mt-10 py-6">
+  <div className="text-center space-y-2">
+
+    <p className="text-lg font-semibold">
+      📞 Contact Us
+    </p>
+
+    <p className="text-[#166534] font-bold text-xl">
+      +254 717 011 111
+    </p>
+
+    <p className="text-white/70 text-sm">
+      hararforexbureau@gmail.com
+    </p>
+
+  </div>
+</footer>
 
       </div>
     </main>
