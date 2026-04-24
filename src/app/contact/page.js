@@ -43,7 +43,7 @@ export default function Contact() {
           </h1>
 
           <p className="text-lg mb-4">📍 Nairobi, Kenya</p>
-          <p className="text-lg mb-4">📞 +254 728 518 255</p>
+          <p className="text-lg mb-4">📞 +254 717 011 111</p>
           <p className="text-lg mb-4">✉️ hararforexbureau@gmail.com</p>
 
           

@@ -53,6 +53,12 @@ export default function About() {
           <p className="text-lg leading-relaxed text-white/95 mb-6">
             At Harar Forex, we believe money should move as easily as your plans. We ensure fair rates, fast service, and customer trust in every transaction.
           </p>
+          <h1 className="text-4xl font-bold text-[#166534] mb-6">
+           KUWA PAY MONEY TRANSFER
+          </h1>
+           <p className="text-lg leading-relaxed text-white/95 mb-6">
+           Kuwa Pay is a simple and reliable money transfer service focused on sending funds to China. With a flat fee of KES 500 on all transactions—big or small—we make cross-border payments affordable, fast, and hassle-free.
+          </p>
 
           {/* INFO BOX */}
           <div className="mt-6 border-t border-white/20 pt-4 text-sm text-white/80 space-y-1">

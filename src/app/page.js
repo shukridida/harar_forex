@@ -40,16 +40,33 @@ export default function Home() {
 
         {/* HERO */}
         <section className="text-center py-24 px-6">
+          <h2 className="text-7xl md:text-5xl font-bold mb-6">
+            HARAR FOREX
+          </h2>
+          <h2 className="text-4xl md:text-3xl font-bold mb-6">
+          AND
+          </h2>
+         <h2 className="text-6xl md:text-5xl font-bold mb-6">
+            KUWA PAY MONEY TRANSFER
+          </h2>
+          
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Fast & Trusted Forex Exchange
           </h2>
+          <p>Kuwa Pay is a simple and reliable money transfer service focused
+             on sending funds to China. With a flat fee of KES 
+             500 on all transactions—big or small—we make cross-border
+              payments affordable, fast, and hassle-free.
+
+          </p>
 
           <p className="max-w-2xl mx-auto text-white/90 mb-8">
             Harar Forex is your trusted partner for currency exchange and money transfers
             service .We are commited to providing competitive exchange rates,fast transactions,
             and secure financial services.
-            
+          
           </p>
+          
            <div className="space-y-2 text-center">
   
   <p>📍 Location: Astrol Petrol Station, Red Hill Road</p>
