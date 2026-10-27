@@ -1,0 +1,16 @@
+[
+  {"currency":"US DOLLAR","buy":1,"sell":2},
+  {"currency":"EURO","buy":2,"sell":3},
+  {"currency":"CANADIAN $","buy":3,"sell":4},
+  {"currency":"STERLING POUND","buy":4,"sell":5},
+  {"currency":"DIRHAM","buy":5,"sell":6},
+  {"currency":"AUSTRALIAN $","buy":6,"sell":7},
+  {"currency":"UGANDA SH","buy":7,"sell":8},
+  {"currency":"TANZANIA SH","buy":8,"sell":9},
+  {"currency":"SWISS FRANCS","buy":9,"sell":10},
+  {"currency":"S.A RAND","buy":10,"sell":11},
+  {"currency":"S.ARABIAN RIYAL","buy":11,"sell":12},
+  {"currency":"INDIAN RUPEE","buy":12,"sell":13},
+  {"currency":"CHINESE YUAN","buy":13,"sell":14},
+  {"currency":"QATAR RIYAL","buy":14,"sell":15}
+]
