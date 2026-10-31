@@ -63,7 +63,7 @@ export default function About() {
           {/* INFO BOX */}
           <div className="mt-6 border-t border-white/20 pt-4 text-sm text-white/80 space-y-1">
             <p>📍 Astrol Petrol Station, Red Hill Road</p>
-            <p>🕒 Monday – Saturday: 9:00 AM – 6:00 PM</p>
+            <p>🕒 Monday – Saturday: 9:00 AM – 7:00 PM</p>
             <p>🕒 Sunday & Public Holidays: Closed</p>
           </div>
 

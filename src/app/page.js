@@ -75,7 +75,7 @@ export default function Home() {
     <p className="font-semibold">🕒 Opening Hours:</p>
 
     <ul className="space-y-1">
-      <li>Monday – Saturday: 9:00 AM – 6:00 PM</li>
+      <li>Monday – Saturday: 9:00 AM – 7:00 PM</li>
       <li>Sunday: Closed</li>
       <li>Public Holidays: Closed</li>
     </ul>
