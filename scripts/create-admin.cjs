@@ -10,7 +10,10 @@ async function main() {
   const productionDatabase = parseProductionDatabase(args);
   const testIndex = args.indexOf("--test-db");
   const productionIndex = args.indexOf("--production-db");
-  const excluded = new Set([testIndex, testIndex + 1, productionIndex, productionIndex + 1].filter((index) => index >= 0));
+  const excluded = new Set([
+  ...(testIndex >= 0 ? [testIndex, testIndex + 1] : []),
+  ...(productionIndex >= 0 ? [productionIndex, productionIndex + 1] : []),
+]);
   const username = args.find((_, index) => !excluded.has(index))?.trim();
   if (!username || username.length > 80) throw new Error("Usage: node scripts/create-admin.cjs <username> --test-db <name> | --production-db <name>");
   const password = await readHiddenPassword();
